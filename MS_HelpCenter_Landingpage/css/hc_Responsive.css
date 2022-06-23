@@ -1,0 +1,1268 @@
+@charset "utf-8";
+
+
+	/*------------HelpCenterResponsive------------*/
+
+
+	@media only screen and (max-width:1200px){
+
+			.container {
+				width: 1100px;
+			}
+		
+			.helpCenter-subtext {
+				font-size: 19px;
+			}
+
+			.helpCenter-rightblock {
+				top: 38px;
+				right: -20px;
+			}
+
+			.hc-opt-leftimage {
+				top: 95px;
+				right: 12%;
+			}
+
+			.hc-opt-title {
+				margin: -29px 120px 0;
+				padding: 10px 85px;
+			}
+		
+			.hc-return-contentblock > li {
+				padding: 40px 0 30px;
+			}
+	}
+
+
+
+
+	@media only screen and (max-width:1100px){
+
+			.HelpCenter_block > h1 {
+				font-size: 100px;
+				padding: 5px 50px 20px 25px;
+			}
+
+			.helpcenter_leftblock > li {
+				padding-left: 25px;
+			}
+
+			.lifetime-text {
+				font-size: 18px;
+			}
+		
+			.appsentrix-text {
+				font-size: 18px;
+			}
+		
+			.helpCenter-rightblock {
+				top: 70px;
+				right: 15px;
+			}
+		
+			.HelpCenter_block::after,
+			.HelpCenter_block::before{
+				display:none;
+			}
+		
+			.hc-opt-leftimage {
+				right: 5%;
+			}
+		
+			.hc-opt-leftimage > img {
+				max-width: 94%;
+			}
+		
+			.hc-opt-block {
+				margin: 70px 0 125px;
+			}
+		
+			
+		
+			.shipping-leftblock {
+				left: -16px;
+			}
+		
+			.hc-service-text {
+				padding-left: 15px;
+			}
+		
+	}
+
+
+
+
+	@media only screen and (max-width:1024px){
+		
+			.container {
+				width: 98%;
+				padding: 0 2%;
+			}
+
+			.HelpCenter_block{
+				border: none;
+				margin-top: 70px;
+			}
+		
+		
+			.HelpCenter_block > h1::after,
+			.HelpCenter_block > h1::before{
+				display:none;
+			}
+		
+			.HelpCenter_block > h1 {
+				display: block;
+				text-align: center;
+				padding: 0px 0px 30px;
+				margin-top: 0px;
+			}
+		
+			.helpcenter_leftblock > li {
+				padding-left: 0px; 
+			}
+		
+			.helpcenter_leftblock > li {
+				flex: 0 0 100%;
+				max-width: 100%;
+			}
+		
+			.helpcenter_leftblock > li > h2 {
+				margin-bottom: 30px;
+				font-size: 36px;
+				text-align: center;
+			}
+		
+			.helpcenter_leftblock > li > p {
+				padding-right: 0px;
+				line-height: 34px;
+				margin-bottom: 50px;
+				padding: 0 40px;
+				text-align: center;
+				
+			}
+		
+			.helpCenter_imgblock {
+				margin-bottom: 60px;
+			}
+		
+			.helpCenter_imgblock > li {
+				flex: 0 0 50%;
+				max-width: 50%;
+				text-align: center;
+			}
+		
+			.ampsentrix-icon > img {
+				width: 236px;
+			}
+		
+			.helpCenter-subtext {
+				margin: 0 0 55px 0;
+				text-align: center;
+				font-size: 20px;
+			}
+		
+			.feature-text {
+				display: block;
+			}
+		
+			.helpCenter-feature > li {
+				padding: 20px 0;
+			}
+		
+			.helpCenter-feature > li > div {
+				min-height: 95px;
+
+			}
+		
+			.feature-text::after {
+				right: 104px;
+				bottom: -15px;
+			}
+		
+			.helpCenter-feature > li:nth-child(3) > span.feature-text::after {
+				right: 106px;
+			}
+		
+			.helpCenter-feature > li:nth-child(4) > span.feature-text::after {
+				right: 106px;
+			}
+		
+			.helpCenter-feature > li:last-child {
+				padding: 15px 21%;
+				text-align: center;
+			}
+		
+			.helpCenter-feature > li:last-child > .feature-text::after {
+				right: 260px;
+			}
+		
+			.helpCenter-rightblock {
+				 top: 0; 
+				 right: 0; 
+			}
+		
+			.helpCenter-rightblock > img {
+				width: 100%;
+				padding: 40px;
+
+			}
+		
+			.helpCenter-title {
+				padding: 30px 0 30px;
+			}
+		
+			.hc-opt-block {
+				margin: 80px 0 80px;
+			}
+		
+			.hc-opt-title {
+				padding: 10px 30px;
+				font-size: 45px;
+			}
+		
+			.hc-opt-leftimage {
+				right: 10%;
+				top:190px;
+			}
+		
+			.hc-return-contentblock > li:last-child {
+				padding: 50px 0 20px;
+			}
+		
+			.hc-returnimage > img {
+				width: 100%;
+			}
+		
+			.hc-return-contentblock > li {
+				padding: 40px 0 50px;
+			}
+		
+		
+			.shipping-container {
+				margin: 0 auto;
+				width: 98%;
+				padding: 0 2%;
+			}
+		
+		
+			.hc-shippingblock > h2 {
+				padding: 10px 285px;
+			}
+		
+			.hc-service-text {
+				 padding-left: 0px;
+			}
+		
+			.customerservice-wrapper > img {
+				margin-left: 7%;
+				margin-right: 2%;
+			}
+		
+			.customer-content {
+				width: 100%;
+				text-align: left; 
+				padding-left: 20px;
+			}
+
+	}
+
+
+
+	@media only screen and (max-width:980px){
+		
+			.helpCenter-title {
+				font-size: 21px;
+			}
+		
+			.feature-text::after {
+				right: 100px;
+			}
+		
+			.helpCenter-feature > li:nth-child(3) > span.feature-text::after {
+				right: 100px;
+			}
+		
+			.helpCenter-feature > li:nth-child(4) > span.feature-text::after {
+				right: 100px;
+			}
+		
+			.helpCenter-feature > li:last-child > .feature-text::after {
+				right: 250px;
+			}
+		
+			.hc-opt-title {
+				margin: -29px 100px 0;
+			}
+		
+			.hc-shippingblock > h2 {
+				padding: 10px 220px;
+			}
+		
+			.shipping-leftblock {
+				top: -50px;
+			}
+		
+			.hc-serviceblock {
+				margin: 70px 0 0;
+			}
+		
+			.hc-service-items > li:first-child {
+				flex: 0 0 100%;
+				max-width: 100%;
+				text-align: center; 
+			}
+		
+			.hc-service-text {
+				padding-right: 0;
+				margin-bottom: 40px;
+				font-size: 48px;
+				line-height: 60px;
+			}
+		
+			.hc-service-items > li {
+				flex: 0 0 25%;
+				max-width: 25%;
+				text-align: center;
+			}
+		
+			.hc-customerservice-block {
+				margin: 70px 0 15px;
+			}
+		
+			.customerservice-wrapper > img {
+				margin-left: 5%;
+			}
+		
+			.customer-content {
+				padding-left: 20px;
+			}
+		
+			.customer-content > h3 {
+				font-size: 28px;
+			}
+		
+			.customer-content p {
+				font-size: 21px;
+				line-height: 28px;
+			}
+
+	}
+
+
+
+
+	@media only screen and (max-width:900px){
+
+			.feature-text::after {
+				display: none;
+			}
+		
+			.helpCenter-title {
+				padding: 25px 0 50px;
+			}
+		
+		
+			.hc-opt-block {
+				border: none;
+				margin: 60px 0 50px;
+			}
+		
+			.hc-opt-title {
+				text-align: center;
+				font-size: 46px;
+				background-color: transparent;
+				display: block;
+				top:0;
+				padding: 0;
+				margin: 0;
+			}
+		
+			.hc-opt-title::after,
+			.hc-opt-title::before{
+				display:none;
+			}
+		
+			.hc-opt-contentblock > li {
+				flex: 0 0 100%;
+				max-width: 100%;
+			}
+		
+			.hc-opt-leftimage {
+			 	position: static;
+				margin-top: 70px;
+			}
+		
+			.hc-opt-leftimage > img {
+				max-width: 100%;
+			}
+		
+			.hc-opt-rightcontent {
+				padding: 50px 0 0;
+
+			}
+		
+			.hc-opt-rightcontent > p::before {
+				left: -34px;
+			}
+		
+			.hc-returnblock {
+				text-align: center;
+				margin-top: 80px;
+				border: none;
+				padding: 0;
+			}
+		
+			.hc-returnblock > h4 {
+			
+				margin-top: 0px; 
+				background-color: transparent; 
+				display: block;
+				padding:0px; 
+				position:static; 
+				top: 0; 
+				margin-bottom: 55px;
+			}
+		
+			.hc-returnblock > h4::before,
+			.hc-returnblock > h4::after{
+				display:none;
+			}
+		
+			.hc-return-contentblock > li {
+				flex: 0 0 100%;
+				max-width: 100%;
+				padding: 35px 0 0;
+			}
+		
+			.hc-return-contentblock > li .hc-return-list {
+				padding: 0 0 30px;
+			}
+		
+			.hc-return-list-subtittle {
+				text-align: center;
+				padding: 0 0 45px;
+			}
+		
+			.hc-returnbtn{
+				margin: 0 auto;
+			}
+		
+			.hc-return-contentblock > li:last-child {
+				padding: 70px 0 50px;
+			}
+		
+			.hc-returnimage {
+				 text-align: center; 
+			}
+		
+		
+			.hc-returnimage > img {
+				max-width: 100%;
+			}
+		
+		
+			.hc-return-Gdelivery > h4 {
+				font-size: 44px;
+				display: block;
+				background-color:transparent; 
+				padding:0; 
+				margin-bottom: 30px; 
+			}
+		
+			.hc-return-Gdelivery > h4::after,
+			.hc-return-Gdelivery > h4::before{
+
+				display:none;
+			}
+		
+		
+			.hc-return-Gdelivery > p {
+				font-size: 26px;
+				line-height: 36px;
+
+			}
+		
+		
+			.hc-shippingblock {
+				border: none;
+				padding: 0; 
+				text-align: center;
+				position: static; 
+				margin-bottom: 80px;
+			}
+		
+			.hc-shippingblock > h2 {
+				display: block;
+			 	margin:0; 
+			 	background-color: transparent; 
+			 	padding: 0; 
+			 	position: static;
+				margin-bottom: 45px;
+			}
+		
+			.hc-shippingblock > h2::before, 
+			.hc-shippingblock > h2::after{
+
+				display:none;
+			}
+		
+		
+			.hc-shipping-contentblock {
+				max-height:none;
+			}
+		
+			.hc-shipping-contentblock > li.shipping-leftblock {
+				flex: 0 0 100%;
+				max-width: 100%;
+				position:static;
+			}
+		
+		
+			.shipping-leftblock > img {
+				max-width: 90%;
+			}
+		
+			.shipping-rightblock {
+				flex: 0 0 75%;
+				max-width: 75%;
+				margin: 0 auto;
+			}
+		
+			.shipping-rightblock > p {
+				margin-bottom: 35px;
+			}
+
+			.shipping-rightblock > p::before {
+				left: -20px;
+			}
+		
+			.shipping-rightblock > a.hc-returnbtn {
+				float: none;
+				margin: 0 auto;
+				
+			}
+		
+			.hc-shippingline{
+				display:none;
+			}
+		
+		.hc-customerservice-block {
+			background-color: transparent;
+			border: none;
+			padding: 0;
+			margin: 0;
+		}
+		
+		.hc-customerservice-block {
+			background-color: transparent;
+			border: none;
+			padding: 0;
+			margin: 80px 0 55px;
+		}
+		
+		.customer-content > h3 {
+			margin: 0 0 20px;
+		}
+		
+		.customerservice-wrapper > img {
+			float: none; 
+			margin-left: 0; 
+			max-width: 100%;
+			display: block;
+			margin: 0 auto;
+			padding-bottom: 40px;
+		}
+		
+		.customer-content {
+			width:100%;
+			float: none;
+			text-align: center;
+			padding-left: 0;
+		}
+		
+		.contact-info-items {
+			padding: 25px 60px;
+		}
+		
+		.contact-info-items > li:last-child {
+			padding: 25px 0 10px;
+		}
+
+	}
+
+
+
+
+	@media only screen and (max-width:800px){
+
+		.helpCenter-title {
+			font-size: 18px;
+		}
+
+		.shipping-rightblock {
+			flex: 0 0 90%;
+			max-width: 90%;
+			margin: 0 auto;
+		}
+
+		.hc-returnimage > img {
+			max-width: 80%;
+		}
+		
+		.hc-shippingblock > h2{
+			margin-bottom: 30px;
+		}
+
+	}
+
+
+
+
+	@media only screen and (max-width:768px){
+
+		.HelpCenter_block > h1 {
+			font-size: 85px;
+		}
+		
+		.hc-opt-leftimage > img {
+			max-width: 90%;
+			padding-left: 35px;
+		}
+		
+	}
+
+
+
+
+	@media only screen and (max-width:640px){
+		
+		.HelpCenter_block > h1 {
+			font-size: 70px;
+		}
+		
+		.helpcenter_leftblock > li > h2 {
+			font-size: 30px;
+		}
+		
+		.helpCenter-title {
+			display: none;
+		}
+		
+		.helpCenter-rightblock > img {
+			padding: 40px;
+		}
+		
+		.hc-opt-block {
+			margin: 40px 0 50px;
+		}
+
+		.hc-opt-title{
+			font-size: 36px;
+		}
+		
+		
+		.hc-returnblock > h4{
+			font-size: 52px;
+		}
+		
+		.hc-return-Gdelivery > h4 {
+			font-size: 42px;
+			margin-bottom: 15px;
+		}
+		
+		.hc-return-Gdelivery > p {
+			font-size: 22px;
+		}
+		
+		.hc-shippingblock > h2{
+			font-size: 52px;
+		}
+		
+		.customer-content > h3 {
+			font-size: 24px;
+			margin-bottom: 30px;
+		}
+		
+		.customer-content p {
+			font-size: 18px;
+		}
+		
+		.contact-info-items {
+			margin: 0 0 30px;
+			padding: 10px 50px 25px;
+		}
+		
+		.contact-info-items > li {
+			flex: 0 0 100%;
+			max-width: 100%;
+			text-align: center;
+			padding: 10px 0;
+
+		}
+		
+		.hc-contactUs-content {
+			background-color: transparent; 
+			padding: 15px 0 50px;
+		}
+
+	}
+
+
+
+	@media only screen and (max-width:536px){
+
+		.container {
+			width: 100%;
+			padding: 0 15px;
+		}
+		
+		.HelpCenter_block {
+			margin-top: 55px;
+		}
+		
+		.HelpCenter_block > h1 {
+			font-size: 56px;
+		}
+		
+		.HelpCenter_block > h1 > span {
+			padding-left: 10px;
+		}
+		
+		
+		.helpcenter_leftblock > li > p {
+		 	padding: 0 ; 
+			text-align: center;
+			font-size: 18px;
+		}
+		
+		.helpCenter_imgblock > li {
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
+		
+		.ampsentrix-icon > img {
+			margin: 40px auto 20px;
+		}
+		
+		.hc-opt-title {
+			line-height: 52px;
+		}
+		
+		.hc-opt-rightcontent > p{
+			font-size: 20px;
+		}
+		
+		.hc-returnblock > h4 {
+			font-size: 46px;
+		}
+		
+		.hc-return-list > p {
+			line-height: 32px;
+			text-align: justify;
+			padding: 0 30px;
+		}
+		
+		.hc-return-list-subtittle {
+			padding: 20px 0 45px;
+			line-height: 36px;
+		}
+		
+		.hc-return-Gdelivery {
+			margin: 0 0 75px;
+		}
+		
+		.hc-return-Gdelivery > h4 {
+			font-size: 36px;
+			white-space: nowrap;
+		}
+		
+		.hc-return-Gdelivery > p {
+			font-size: 18px;
+		}
+		
+		.hc-shippingblock {
+			margin-bottom: 45px;
+		}
+		
+		.hc-shippingblock > h2 {
+			font-size: 46px;
+		}
+		
+		.shipping-rightblock {
+			flex: 0 0 1000%;
+			max-width: 100%;
+			padding: 10px 15px 20px;
+		}
+		
+		.shipping-rightblock > p {
+			position: static;
+			padding-left: 0px;
+			margin-bottom: 45px;
+		}
+		
+		.shipping-rightblock > p::before {
+			display: none;
+		}
+		
+		.hc-serviceblock {
+			 margin:0px; 
+		}
+		
+		.hc-service-text {
+			font-size: 46px;
+			margin-bottom: 30px;
+		}
+		
+		.hc-service-items > li {
+			flex: 0 0 50%;
+			max-width: 50%;
+			padding: 15px 0;
+		}
+		
+		.hc-service-items > li > span::after{
+			display:none;
+		}
+		
+		.hc-customerservice-block {
+			margin: 60px 0 50px;
+		}
+		
+		.customerservice-wrapper > img{
+			padding-bottom: 55px;
+		}
+		
+		.customer-content > h3 {
+			font-size: 20px;
+			margin-bottom: 35px;
+			white-space: nowrap;
+		}
+		
+		.customer-content p {
+			font-size: 18px;
+			line-height: 30px;
+		}
+		
+		.contact-info-items {
+			padding: 10px 10px 25px;
+		}
+		
+		.contact-info-items > li:last-child {
+			padding: 15px 0 10px;
+		}
+
+	}
+
+
+
+	@media only screen and (max-width:480px){
+	
+		.navbar > img {
+			width: 100%;
+			min-height: 120px;
+		}
+		
+		
+		.helpCenter-subtext {
+			margin: 0 0 30px 0;
+			line-height: 32px;
+		}
+		
+		.helpCenter-feature {
+			padding-right: 0px; 
+		}
+		
+		.helpCenter-feature > li {
+			flex: 0 0 50%;
+			max-width: 50%;
+			padding: 20px 0;
+		}
+		
+		.helpCenter-feature-image > img {
+			width: 60%;
+		}
+		
+		.feature-text {
+			margin-top: 10px;
+			font-size: 18px;
+		}
+		
+		.hc-opt-title {
+			font-size: 32px;
+		}
+		
+		.hc-opt-block {
+			padding: 25px 15px 0;
+			margin: 40px 0 35px;
+		}
+		
+		.hc-opt-rightcontent > p::before {
+			display: none;
+		}
+		
+		.hc-opt-rightcontent > p {
+			font-size: 18px;
+		}
+		
+		.hc-returnblock > h4{
+			font-size: 36px;
+		}
+		
+		.hc-return-list > p {
+			padding: 0 15px;
+			font-size: 18px;
+		}
+		
+		
+		.hc-return-list-subtittle {
+			line-height: 32px;
+		}
+		
+		.hc-returnbtn {
+			margin: 0 auto;
+			white-space: nowrap;
+			font-size: 16px;
+		}
+		
+		.hc-return-Gdelivery > h4 {
+			font-size: 32px;
+			line-height: 36px;
+		}
+		
+		.hc-shippingblock > h2{
+			font-size: 36px;
+		}
+		
+		.shipping-rightblock > p{
+			font-size: 18px;
+		}
+		
+		.hc-service-text{
+			font-size: 36px;
+			line-height: 48px;
+			margin-bottom: 25px;
+		}
+		
+		
+		.customer-content > h3 {
+			font-size: 18px;
+		}
+		
+		.customer-content p {
+			font-size: 17px;
+		}
+
+	}
+
+
+
+	@media only screen and (max-width:360px){
+		
+		.HelpCenter_block {
+			margin-top: 40px;
+		}
+
+		.HelpCenter_block > h1 {
+			font-size: 38px;
+		}
+		
+		.HelpCenter_block > h1 > span {
+			padding-left: 5px;
+		}
+		
+		.helpcenter_leftblock > li > h2 {
+			font-size: 26px;
+			line-height: 38px;
+		}
+		
+		.helpcenter_leftblock > li > p {
+			font-size: 16px;
+		}
+		
+		.helpCenter-rightblock > img {
+			padding: 16px;
+		}
+		
+		.helpCenter-feature > li {
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
+		
+		.helpCenter-feature > li > div {
+			height:auto;
+		}
+		
+		.hc-opt-block {
+			padding: 25px 10px 0;
+			margin: 15px 0 25px;
+		}
+		
+		.hc-opt-title {
+			font-size: 26px;
+			line-height: 36px;
+		}
+		
+		.hc-opt-rightcontent > p {
+			font-size: 16px;
+		}
+		
+		.hc-returnblock > h4 {
+			font-size: 30px;
+		}
+		
+		.hc-return-list > h5 {
+			font-size: 21px;
+			padding: 0 0 20px 8px;
+			font-weight: 600;
+			position: static;
+		}
+		
+		.hc-return-list > h5::before{
+			display:none;
+		}
+		
+		.hc-return-list > p {
+			padding: 0 10px;
+			font-size: 16px;
+		}
+		
+		.hc-return-Gdelivery > h4 {
+			font-size: 26px;
+		}
+		
+		.hc-returnbtn{
+			font-size: 15px;
+		}
+		
+		.hc-shippingblock > h2 {
+			font-size: 32px;
+		}
+		
+		
+		
+		.shipping-leftblock > img {
+			max-width: 100%;
+		}
+		
+		.shipping-rightblock > p {
+	 		padding-left: 0px;
+			font-size: 16px;
+		}
+		
+		.hc-service-text {
+			font-size: 32px;
+			margin-bottom: 15px;
+		}
+		
+		.shipping-rightblock {
+			flex: 0 0 100%;
+			max-width: 100%;
+			padding: 0 15px;
+		}
+		
+		.shipping-rightblock > p{
+			padding-left: 0px;
+		}
+		
+		.hc-service-items > li > span::after{
+			display:none;
+		}
+		
+		.hc-customerservice-block {
+			margin: 60px 0 25px;
+		}
+
+		.customer-content > h3 {
+			font-size: 18px;
+			white-space: normal;
+			line-height: 32px;
+		}
+		
+		.contact-info-items {
+			margin: 0 0 15px;
+			padding: 10px 15px 25px;
+		}
+		
+		
+		
+		.contact-info-items > li:last-child > span.cta-addr-text {
+			margin-left: -10px;
+		}
+		
+		.cta-addr-text {
+			font-size: 15px;
+		}
+		
+		.contact-btn{
+			width:300px;
+			font-size: 18px;
+		}
+		
+		.contact-icon {
+			position: absolute;
+			top: -11px;
+			width: 70px;
+			height: 70px;
+			right: 32px;
+		}
+		
+
+	}
+
+
+
+	@media only screen and (max-width:320px){
+
+		.helpCenter_imgblock {
+			margin-bottom: 45px;
+		}
+		
+		.hc-return-Gdelivery > h4 {
+			font-size: 24px;
+			margin-bottom:5px;
+		}
+		
+		.helpCenter-subtext {
+			font-size: 18px;
+		}
+		
+		
+		.hc-opt-block {
+			padding: 20px 0px 0;
+			margin: 10px 0 25px;
+		}
+		
+		.hc-opt-leftimage {
+			margin-top: 30px;
+		}
+		
+		.hc-opt-leftimage > img {
+			max-width: 100%;
+			padding: 15px;
+		}
+		
+		.hc-opt-rightcontent {
+			padding: 20px 10px 0;
+		}
+		
+		.hc-opt-rightcontent > p {
+			margin: 0 0 25px;
+			line-height: 36px;
+		}
+		
+		.hc-returnblock {
+			margin-top: 55px;
+		}
+		
+		.hc-return-contentblock > li {
+			padding: 20px 0 0;
+		}
+		
+		.hc-return-contentblock > li .hc-return-list {
+			padding: 0 0 20px;
+		}
+		
+		.hc-return-list > h5 {
+			padding: 0 0 15px 8px;
+		}
+		
+		.hc-return-list-subtittle {
+			padding: 5px 0 35px;
+			line-height: 30px;
+			font-size: 18px;
+			font-weight: 500;
+		}
+		
+		.hc-return-contentblock > li:last-child {
+			padding: 60px 0 60px;
+		}
+		
+		
+		.hc-returnimage > img {
+			max-width: 98%;
+		}
+		
+		.hc-return-Gdelivery {
+			margin: 0 0 55px;
+		}
+		
+		.hc-shippingblock {
+			margin-bottom: 35px;
+		}
+		
+		.hc-service-items > li > span {
+			font-weight: 500;
+			font-size: 16px;
+		}
+		
+		.customerservice-wrapper > img {
+			padding-bottom: 45px;
+		}
+		
+		.customer-content > h3 {
+			margin-bottom: 25px;
+		}
+		
+		.customer-content p {
+			font-size: 16px;
+		}
+		
+		.contact-info-items {
+			margin: 0 0 15px;
+			padding: 0 15px 15px;
+		}
+		
+		.contact-info-items > li {
+			padding: 10px 0;
+		}
+		
+		.contact-info-items > li > span {
+			margin: 0 auto;
+		}
+		
+		.hc-contacticon.hc-call,
+		.hc-contacticon.hc-address {
+			margin-bottom: 10px;
+		}
+		
+		.contact-info-items > li:last-child {
+			padding: 10px 0 15px;
+		}
+		
+		.hc-contacticon.hc-timer {
+			position: static; 
+			margin-bottom: 10px;
+		}
+		
+		.contact-info-items > li:last-child > span.cta-addr-text {
+			margin-left:0px; 
+		}
+		
+		.cta-addr-text {
+			display: block;
+			font-size: 15px;
+			line-height: 24px;
+		}
+		
+		.contact-btn {
+			width: 275px;
+			font-size: 16px;
+		}
+		
+		.contact-icon{
+			top:-13px;
+		}
+		
+	}
+
+
+
+
+
+
+
+
+
+
+
+
