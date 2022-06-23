@@ -1,0 +1,576 @@
+@media only screen and (max-width:1200px){
+
+    .swap-container {
+        width: 95%;
+    }
+
+    .swap-bannar-section {
+        height: 330px;
+    }
+
+    .swap-content {
+        padding: 5% 15px;
+    }
+
+    .swap-content > h1 {
+        font-size: 55px;
+    }
+
+    .swap-content > h4{
+        font-size: 25px;
+    }
+
+    .swap-work-image {
+        height: 270px;
+    }
+
+}
+
+
+@media only screen and (max-width:1100px){
+
+    .swap-work-image {
+        border: none;
+        padding-top: 0;
+    }
+
+    .swap-work-image {
+        height: 100%;
+        margin-top:10px;
+    }
+
+    .swap-work-overlay{
+        height:98%;
+    }
+
+}
+
+
+@media only screen and (max-width:1024px){
+
+    .swap-bannar-section {
+        background-size: 100% 100%;
+    }
+
+    .swap-work-image > img {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .swap-overlay-icon {
+        width: 85px;
+        height: 85px;
+    }
+
+    .swap-price-title {
+        font-size: 46px;
+    }
+
+    .swap-process-section p {
+        padding: 5px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .swap-start-btn {
+        white-space: nowrap;
+    }
+
+    .swap-FAQ-section > h1{
+        font-size:42px;
+    }
+
+    .footer-section {
+        margin: 40px 0 0;
+    }
+
+}
+
+
+@media only screen and (max-width:990px){
+
+    .left-content {
+        padding-left: 15px;
+    }
+    .left-content > h2 {
+        font-size: 44px;
+        text-indent: -3px;
+    }
+
+    .left-content > p {
+        font-size: 20px;
+        line-height: 36px;
+        padding: 10px 0 0;
+    }
+}
+
+
+@media only screen and (max-width:800px){
+    .swap-bannar-section {
+        background-size:cover;
+        height: 100%;
+    }
+
+    .swap-content > h1 {
+        font-size: 34px;
+        text-indent: 0;
+    }
+
+    .swap-work-section {
+        padding: 30px 0;
+    }
+
+    .swap-work-grid > li:first-child {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .left-content {
+        margin: 25px 0;
+    }
+
+    .left-content > h2 {
+        font-size: 32px;
+    }
+
+    .left-content > p {
+     padding: 0 0 0;
+    }
+
+    .swap-work-grid > li:last-child {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .swap-work-image {
+        height: 100%;
+    }
+
+    .swap-work-image > img {
+        width: 100%;
+        padding: 0;
+    }
+
+    .swap-work-overlay{
+        height:99%;
+    }
+
+    .swap-price-title {
+        font-size: 32px;
+    }
+
+    .swap-process-section {
+        padding: 50px 0;
+    }
+
+    .swap-process-title {
+        font-size: 36px;
+    }
+
+    .swap-start-btn {
+        min-width: 310px;
+        font-size: 21px;
+    }
+
+    .swap-FAQ-section {
+        margin: 40px 0 0;
+    }
+
+    .swap-FAQ-section > h1 {
+        font-size: 30px;
+    }
+
+    .swap-accordion {
+        margin-bottom: 35px;
+    }
+
+}
+
+
+@media only screen and (max-width:768px){
+    .left-content {
+        padding: 0;
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    .left-content > h2 {
+        font-size: 28px;
+    }
+
+    .left-content > p {
+        font-size:17px;
+    }
+
+    .swap-work-image {
+        padding-top: 0; 
+    }
+
+    .swap-tab-content {
+        overflow: auto!important;
+        width: 100%;
+    }
+
+    .swap-process-flow > li {
+        min-width: 150px;
+        display: inline-block;
+        padding: 9px 30px;
+        
+    }
+
+    .swap-process-section p {
+       
+        width: 100%; 
+        margin: 10px auto 35px auto;
+        padding: 15px;
+        
+    }
+
+}
+
+
+@media only screen and (max-width:640px){
+    .swap-bannar-section {
+        background-size: 100% 100%;
+    }
+
+    .swap-content {
+        padding: 55px 15px;
+    }
+
+    .swap-content > h1 {
+        font-size: 25px;
+    }
+
+    .swap-content > h4 {
+        font-size: 18px;
+        margin: 0 0 20px;
+    }
+
+    .swap-video-btn {
+        min-width: 290px;
+        font-size: 16px;
+        white-space: nowrap;
+    }
+
+    .swap-work-section {
+        padding: 15px 0;
+    }
+
+    .swap-price-section {
+        margin: 30px 0;
+    }
+
+    .swap-price-title {
+        font-size: 24px;
+        margin: 0 0 20px;
+    }
+
+    .swap-price-tab {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .swap-tab-left {
+         padding-top: 0; 
+    }
+
+    .swap-price-tab > li {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #DDD;
+        padding-bottom: 18px;
+        
+    }
+
+    .swap-tab-link{
+        cursor: pointer;
+    }
+
+    .swap-price-tab > li:nth-child(4) {
+        border-bottom: none;
+    }
+
+    .swap-tab2, .swap-tab3, .swap-tab4 {
+        font-size: 18px;
+        margin: 20px 0 0;
+    }
+
+    .tab-image-link > img {
+        display: none;
+    }
+
+    .swap-tab-content {
+        padding: 0 0 0 0;
+    }
+
+    .swap-price-table {
+        width: 640px;
+    }
+
+    .swap-price-table > thead > tr > th:first-child {
+        width: 170px;
+    }
+
+    .swap-price-table > thead > tr > th {
+        font-size: 14px;
+        padding: 10px;
+        
+    }
+
+    .swap-price-table > tbody > tr > td {
+        font-size: 14px;
+        padding: 10px;
+        font-weight: 600;
+        line-height: 21px;
+    }
+
+    .swap-process-section {
+        padding: 30px 0;
+    }
+
+    .swap-process-title {
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .swap-process-subtitle {
+        font-size: 17px;
+        margin: 0 0 10px;
+    }
+
+    .swap-process-flow {
+        background: transparent;
+        margin:0 0 10px;
+    }
+
+    .swap-process-flow > li {
+        padding: 10px 20px;
+        min-width: auto;
+        background: rgba(0,0,0,.6);
+        margin: 8px 0;
+        border-radius: 28px;
+        width: 90%;
+    }
+
+    .swap-process-section p {
+        width: 100%;
+        margin: 10px auto 25px auto;
+        padding: 10px;
+        font-size: 17px;
+    }
+
+    .swap-start-btn {
+        min-width: 280px;
+        font-size: 18px;
+    }
+
+    .swap-FAQ-section {
+        margin: 30px 0 0;
+    }
+
+    .swap-FAQ-section > h1 {
+        font-size: 25px;
+        margin: 0 0 25px;
+        line-height: normal;
+    }
+
+    .swap-accordion-tab > label {
+        font-size: 17px;
+        white-space: nowrap;
+        padding: 15px 0 15px 35px;
+    }
+
+    .footer-section {
+        margin: 15px 0 0;
+    }
+
+}
+
+@media only screen and (max-width:576px){
+
+    .swap-accordion-tab > label {
+        white-space: normal;
+    }
+}
+
+@media only screen and (max-width:480px){
+
+
+    .swap-content {
+        padding: 50px 10px;
+    }
+
+    .swap-content > h1 {
+        font-size: 21px;
+    }
+
+    .swap-content > h4 {
+        font-size: 16px;
+        margin: 0 0 10px;
+    }
+
+    .swap-video-btn {
+        min-width: 260px;
+        font-size: 16px;
+    }
+
+    .left-content > h2 {
+        font-size: 24px;
+    }
+
+    .left-content > p {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .swap-price-tab > li {
+        padding-bottom: 15px;
+    }
+
+    .swap-tab-link.swp-active {
+        background-color: #29a6ec;
+        font-weight: 700;
+        color:#fff;
+        position: relative;
+    }
+    .swap-tab-link.swp-active::after{
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 7px 7px 0 7px;
+        border-color: #29a5ec transparent transparent transparent;
+        position: absolute;
+        bottom: -5px;
+        left: calc(50% - 7px);
+    }
+    .swap-tab2, .swap-tab3, .swap-tab4 {
+        font-size: 16px;
+    }
+    .swap-price-table {
+        width: 480px;
+        margin-top: 20px;
+    }
+
+    .swap-price-table > thead > tr > th {
+        font-size: 13px;
+        
+    }
+
+    .swap-price-table > thead > tr > th:nth-child(2),
+    .swap-price-table > thead > tr > th:nth-child(3) {
+        width: 100px;
+        white-space: nowrap;
+    }
+
+    .swap-price-table > tbody > tr > td {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .footer-section {
+        margin: 5px 0 0;
+    }
+
+}
+
+
+@media only screen and (max-width:360px){
+
+    .left-content > p {
+        font-size: 14px;
+    }
+    .swap-work-image {
+        height: 100%;
+        margin-top: 0;
+    }
+
+    .swap-work-image > img {
+        padding: 0;
+    }
+
+    .swap-tab2, .swap-tab3, .swap-tab4 {
+        margin: 12px 0 0;
+    }
+
+    .swap-price-table {
+        width: 480px;
+        cursor: pointer;
+    }
+
+    .swap-price-table > thead > tr > th {
+        font-size: 13px;
+    }
+
+    .swap-price-table > tbody > tr > td {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .swap-FAQ-section > h1 {
+        font-size: 24px;
+    }
+
+}
+
+
+@media only screen and (max-width:320px){ 
+
+    .swap-content {
+        padding: 40px 10px;
+    }
+
+    .swap-content > h4 {
+        font-size: 13px;
+    }
+
+    .swap-video-btn {
+        min-width: 175px;
+        font-size: 13px;
+        height:42px;
+        line-height:18px;
+    }
+
+    .left-content > h2 {
+        line-height: 42px;
+    }
+
+    .left-content > p {
+        font-size: 13px;
+        line-height:26px;
+    }
+
+    .swap-work-image > img {
+        padding: 0;
+    }
+
+    .swap-price-title {
+        font-size: 22px;
+    }
+
+    .swap-start-btn {
+        min-width: 250px;
+        font-size: 16px;
+    }
+
+    .swap-FAQ-section > h1 {
+        font-size: 22px;
+        line-height: 28px;
+        margin: 0 0 20px;
+    }
+
+    .swap-accordion-tab > label {
+        font-size: 16px;
+        padding: 15px 0 15px 40px;
+    }
+
+    .accordion-content > p {
+        font-size: 15px;
+    }
+
+    .footer-section {
+       margin:0;
+    }
+}
